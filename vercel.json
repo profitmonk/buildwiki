@@ -1,9 +1,4 @@
 {
-  "version": 2,
-  "routes": [
-    { "handle": "redirect", "src": "^/www($|/)", "status": 308, "destination": "/" },
-    { "handle": "rewrite",  "src": "/(.*)", "destination": "/index.html" }
-  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -16,3 +11,4 @@
     }
   ]
 }
+
